@@ -5,16 +5,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /*header*/
 
 header {
     background-color: lightcoral;
 }
+
 /*main*/
 
 main {
     background-color: lightblue;
 }
+
 /*footer*/
 
 footer {
