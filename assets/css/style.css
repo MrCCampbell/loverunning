@@ -1,6 +1,6 @@
-/*google import fonts*/
+/* google import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
-/* asterisk wildcard selector to override default styles added by the browser*/
+/* asterisk wildcard selector to override default styles added by the browser */
 
 * {
     padding: 0;
@@ -8,20 +8,20 @@
     box-sizing: border-box;
 }
 
-/*general styles*/
+/* General styles */
 
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*generic project styles*/
+    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
-/*header*/
+/* Header */
 
 header {
-    background-color: #ffffff;
+ background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -54,16 +54,25 @@ h1 {
 .active {
     border-bottom: 1px, solid #3a3a3a;
 }
+/* Navbar styles with dropdown toggle  */
+nav {
+position: absolute;
+background-color: #ffffff;
+width: 100%;
+left: 0;
+padding: 0 1rem;
+box-shadow: 0 2px 2px #3a3a3a;
+display: none;
+}
 
-/*main*/
-
+/* Main */
 main {
     background-color: lightblue;
-    /*make main element to take up any surplus space to push the footer down*/
+     /* Make main element to take up any surplus space to push the footer down */
     flex: 10 auto;
 }
 
-/*footer*/
+/* Footer */
 
 footer {
     background-color: orange;
