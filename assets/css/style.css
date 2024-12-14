@@ -78,13 +78,14 @@ top: 100%;
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 2rems;
 }
 /* Main */
 main {
     background-color: lightblue;
      /* Make main element to take up any surplus space to push the footer down */
     flex: 10 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
